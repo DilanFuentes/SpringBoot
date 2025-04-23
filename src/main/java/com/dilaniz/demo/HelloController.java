@@ -8,6 +8,13 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "¡HOLA MUNDO!";
+        return "¡HOLA MUNDOOOOOOOOOOOOOOOOOOOOOO!";
     }
+
+    /*@GetMapping("/bye")
+    public String byee(){
+        return "CHAO Mundo";
+    }*/
+
 }
+
