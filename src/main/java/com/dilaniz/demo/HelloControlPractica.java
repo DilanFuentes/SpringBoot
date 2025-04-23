@@ -78,7 +78,6 @@ public class ClienteController {
     }
     
     }   
-
 @RestController
 @RequestMapping("/productos")
 public class ProductoController { 
