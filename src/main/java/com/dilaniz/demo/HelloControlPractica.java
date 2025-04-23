@@ -61,13 +61,11 @@ public class HelloControlPractica {
     @GetMapping("/division/{a}/{b}")
     public String division(@PathVariable int a, @PathVariable int b){
         if (b == 0){
-            return "No se puede dividir por 0";
+            return "No se puede dividir por 0 ";
         }
         double resultado = (double) a / b;
         return "El resultado de la division es " + resultado;
-
     }
-
 @RestController
 @RequestMapping("/clientes")
 public class ClienteController { 
