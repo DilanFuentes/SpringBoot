@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
 @RestController
 @RequestMapping("/api")
 public class HelloControlPractica {
@@ -66,6 +65,9 @@ public class HelloControlPractica {
         double resultado = (double) a / b;
         return "El resultado de la division es " + resultado;
     }
+    
+//Quinto trabajo 
+
 @RestController
 @RequestMapping("/clientes")
 public class ClienteController { 
